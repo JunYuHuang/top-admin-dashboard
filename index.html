@@ -11,11 +11,11 @@
         theme: {
           extend: {
             colors: {
-              white: "#ffffff",
-              black: "#000000",
+              "my-white": "#ffffff",
+              "my-black": "#000000",
               "off-black": "#333333",
-              teal: "#1992d4",
-              orange: "#f0b429",
+              "my-teal": "#1992d4",
+              "my-orange": "#f0b429",
               "light-gray": "#e2e8f0",
               "dark-gray": "#636363",
             },
@@ -31,6 +31,12 @@
     <link rel="stylesheet" href="assets/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="flex flex-row min-h-screen">Hello World</div>
+    <div
+      class="container min-h-screen min-w-full grid grid-cols-[303px_1fr] grid-rows-[178px_1fr]"
+    >
+      <aside class="sidebar bg-my-teal row-span-2">a</aside>
+      <header class="header bg-white">b</header>
+      <main class="main-content bg-light-gray">c</main>
+    </div>
   </body>
 </html>
