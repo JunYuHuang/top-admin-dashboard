@@ -68,13 +68,14 @@ This web page is an implementation based on the above UI design mock-up.
   - 2nd column is ~3.75x the size of 1st column
 - `.sidebar`:
   - 606px width
+  - 46px padding horiz. / vert.
 
 ## TODOs
 
 - [x] Set up project boilerplate assets, files, and code
 - [x] Finish page element hierarchy planning
 - [ ] Finish page layout notes
-- [ ] Copy text content from UI design image to `assets/content.txt`
+- [x] Copy text content from UI design image to `assets/content.txt`
 - [ ] Complete sidebar component
 - [ ] Complete header top row (with search box) component
 - [ ] Complete header bottom row (with buttons) component
