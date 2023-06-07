@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              white: "#ffffff",
+              black: "#000000",
+              "off-black": "#333333",
+              teal: "#1992d4",
+              orange: "#f0b429",
+              "light-gray": "#e2e8f0",
+              "dark-gray": "#636363",
+            },
+          },
+          fontFamily: {
+            regular: ['"Roboto Regular"'],
+            medium: ['"Roboto Medium"'],
+            bold: ['"Roboto Bold"'],
+          },
+        },
+      };
+    </script>
+    <link rel="stylesheet" href="assets/styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-row min-h-screen">Hello World</div>
+  </body>
+</html>
