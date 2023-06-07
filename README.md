@@ -8,11 +8,79 @@ This web page is an implementation based on the above UI design mock-up.
 
 ## Page Layout Planning
 
-- TODO
+### Page Element Hierarchy
+
+- `.container`
+  - `.sidebar`
+    - `.logo-container`
+      - `img` (dashboard icon)
+      - `h1`
+    - `.link` x 6
+      - `img`
+      - `a`
+    - `.link` x 3
+      - `img`
+      - `a`
+  - `.header`
+    - `.row-1`
+      - `form`
+        - `img` (magnifying glass icon)
+        - `input` (search box)
+      - `img` (bell icon)
+      - `img` (cat avatar image)
+      - `p` or `a`
+    - `.row-2`
+      - `.profile-card`
+        - `img` (cat avatar medium image)
+        - `div`
+          - `p`
+          - `h2`
+      - `.button` x 3 (new, upload, share buttons)
+  - `.main-content`
+    - `.projects`
+      - `h3`
+      - `.projects-container`
+        - `.card` x 6
+          - `h4`
+          - `p`
+          - `div`
+            - `img` x 3 (star, eye, source icons)
+    - `.announcements`
+      - `h3`
+      - `.announcements-container`
+        - `div` x 3
+          - `h4`
+          - `p`
+          - `br`
+    - `.trending`
+      - `h3`
+      - `.trending-container`
+        - `.trending-card` x 4
+          - `img` (small avatar image)
+          - `div`
+            - `p`
+            - `p`
+
+### Page Layout Notes
+
+- `.container`:
+  - 2 Grid columns
+  - 2nd column is ~3.75x the size of 1st column
+- `.sidebar`:
+  - 606px width
 
 ## TODOs
 
 - [x] Set up project boilerplate assets, files, and code
+- [x] Finish page element hierarchy planning
+- [ ] Finish page layout notes
+- [ ] Copy text content from UI design image to `assets/content.txt`
+- [ ] Complete sidebar component
+- [ ] Complete header top row (with search box) component
+- [ ] Complete header bottom row (with buttons) component
+- [ ] Complete main-content projects section component
+- [ ] Complete main-content announcements section content
+- [ ] Complete main-content trending section content
 
 ## Assets To Download
 
@@ -38,6 +106,6 @@ This web page is an implementation based on the above UI design mock-up.
 - [x] Search / Magnifying Glass Icon
 - [x] Bell / Notification Icon
 
-## Stuff to Configure
+## Stuff To Configure
 
 - [x] Setup Tailwind config with colours and images
