@@ -79,7 +79,7 @@ This web page is an implementation based on the above UI design mock-up.
 - [ ] Complete sidebar component
 - [ ] Complete header top row (with search box) component
 - [ ] Complete header bottom row (with buttons) component
-- [ ] Complete main-content projects section component
+- [x] Complete main-content projects section component
 - [x] Complete main-content announcements section content
 - [x] Complete main-content trending section content
 - [ ] Fix extra height issue with grid layout (related to top and bottom padding in `.main-content` element)
