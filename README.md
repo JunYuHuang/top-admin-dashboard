@@ -4,7 +4,14 @@
 
 This web page is an implementation based on the above UI design mock-up.
 
-<!-- Site is live [here](https://junyuhuang.github.io/top-admin-dashboard/). -->
+Site is live [here](https://junyuhuang.github.io/top-admin-dashboard/).
+
+## Skills Demonstrated
+
+- HTML
+- CSS (Grid and Flexbox Layout)
+- JavaScript
+- TailwindCSS
 
 ## TODOs
 
