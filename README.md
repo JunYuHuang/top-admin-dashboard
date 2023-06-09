@@ -76,7 +76,7 @@ This web page is an implementation based on the above UI design mock-up.
 - [x] Finish page element hierarchy planning
 - [ ] Finish page layout notes
 - [x] Copy text content from UI design image to `assets/content.txt`
-- [ ] Complete sidebar component
+- [x] Complete sidebar component
 - [ ] Complete header top row (with search box) component
 - [ ] Complete header bottom row (with buttons) component
 - [x] Complete main-content projects section component

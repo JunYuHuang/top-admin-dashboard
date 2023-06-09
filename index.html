@@ -35,7 +35,94 @@
     <div
       class="container min-h-screen min-w-full grid grid-cols-[303px_1fr] grid-rows-[minmax(180px,_180px)_minmax(1fr,_calc(1fr_-_36px_-_64px))]"
     >
-      <aside class="sidebar bg-my-teal row-span-2">a</aside>
+      <aside
+        class="sidebar bg-my-teal row-span-2 p-5 grid gap-y-[50px] justify-items-start auto-rows-min"
+      >
+        <div class="flex flex-row gap-x-3 items-center">
+          <img
+            src="assets/icons/view-dashboard.svg"
+            alt="An icon of a dashboard."
+            class="w-12 h-12"
+          />
+          <h1 class="text-white font-bold text-[28px]">Dashboard</h1>
+        </div>
+        <ul class="grid gap-y-4">
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/home.svg"
+              alt="An icon of a single family house."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Home</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/card-account-details-outline.svg"
+              alt="An icon of a business card account."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Profile</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/message-reply.svg"
+              alt="An icon of a message reply chat bubble."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Messages</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/clock-time-three.svg"
+              alt="An icon of an analog clock at time 03:00."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">History</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/note-multiple.svg"
+              alt="An icon of a paper note stacked on top of another."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Tasks</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/account-group.svg"
+              alt="An icon of a group of 3 avatar icons."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Communities</a>
+          </li>
+        </ul>
+        <ul class="grid gap-y-4">
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/cog.svg"
+              alt="An icon of a gear."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Settings</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/help-box.svg"
+              alt="An icon of a question mark enclosed within a square box."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Support</a>
+          </li>
+          <li class="grid gap-x-3 grid-cols-[48px_1fr] items-center">
+            <img
+              src="assets/icons/shield-check.svg"
+              alt="An icon of a shield with a check mark."
+              class="w-6 h-6 justify-self-center"
+            />
+            <a href="#" class="text-white font-bold text-[22px]">Privacy</a>
+          </li>
+        </ul>
+      </aside>
       <header class="header bg-white grid grid-rows-[80px_1fr] pl-11">b</header>
       <!-- pt-9 pb-16 -->
       <!-- grid-rows-[minmax(min-content,_calc(1fr_-_18px_-_32px))_minmax(min-content,_calc(1fr_-_18px_-_32px))] -->
@@ -45,7 +132,7 @@
         <article class="projects row-span-2 flex flex-col">
           <h3 class="text-off-black font-medium text-xl">Your Projects</h3>
           <div
-            class="mt-2 grow grid gap-y-7 gap-x-5 grid-cols-2 grid-rows-3 auto-row-min"
+            class="mt-2 grow grid gap-y-7 gap-x-5 grid-cols-2 grid-rows-3 auto-rows-min"
           >
             <div
               class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
