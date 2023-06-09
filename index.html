@@ -135,7 +135,7 @@
         </ul>
       </aside>
       <header
-        class="header bg-white grid grid-rows-[80px_100px] pl-11 pr-[60px] pb-4 shadow-lg"
+        class="header bg-white grid grid-rows-[80px_100px] pl-11 pr-[60px] shadow-lg pb-4"
       >
         <div class="row-top grid grid-cols-[1.6fr_1fr]">
           <form
@@ -156,7 +156,7 @@
                 id="search-query"
                 name="search-query"
                 type="text"
-                class="focus-visible:outline-0 bg-light-gray rounded-full text-off-black py-1 px-4 min-w-[200px] max-w-[606px] w-full"
+                class="focus-visible:outline-0 bg-light-gray rounded-full text-off-black py-1 px-4 min-w-[250px] max-w-[606px] w-full"
               />
             </div>
           </form>
@@ -220,11 +220,9 @@
       >
         <article class="projects row-span-2 flex flex-col">
           <h3 class="text-off-black font-medium text-xl">Your Projects</h3>
-          <div
-            class="mt-2 grow grid gap-y-7 gap-x-5 grid-cols-2 grid-rows-3 auto-rows-min"
-          >
+          <div class="mt-2 grid gap-y-7 gap-x-5 grid-cols-2 grid-rows-3 grow">
             <div
-              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
+              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col min-h-[218px]"
             >
               <section class="grow">
                 <h4 class="text-lg font-medium text-off-black leading-snug">
@@ -260,7 +258,7 @@
               </div>
             </div>
             <div
-              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
+              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col min-h-[218px]"
             >
               <section class="grow">
                 <h4 class="text-lg font-medium text-off-black leading-snug">
@@ -298,7 +296,7 @@
               </div>
             </div>
             <div
-              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
+              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col min-h-[218px]"
             >
               <section class="grow">
                 <h4 class="text-lg font-medium text-off-black leading-snug">
@@ -334,7 +332,7 @@
               </div>
             </div>
             <div
-              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
+              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col min-h-[218px]"
             >
               <section class="grow">
                 <h4 class="text-lg font-medium text-off-black leading-snug">
@@ -371,7 +369,7 @@
               </div>
             </div>
             <div
-              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
+              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col min-h-[218px]"
             >
               <section class="grow">
                 <h4 class="text-lg font-medium text-off-black leading-snug">
@@ -407,7 +405,7 @@
               </div>
             </div>
             <div
-              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col"
+              class="card bg-white rounded-lg shadow-lg border-l-8 border-my-orange pl-[22px] pr-4 pb-7 pt-9 flex flex-col min-h-[218px]"
             >
               <section class="grow">
                 <h4 class="text-lg font-medium text-off-black leading-snug">
@@ -448,7 +446,7 @@
         <article class="announcements flex flex-col">
           <h3 class="text-off-black font-medium text-xl">Announcements</h3>
           <div
-            class="bg-white px-8 pt-7 pb-7 mt-2 rounded-lg shadow-lg grid grid-rows-3 grow"
+            class="bg-white px-8 pt-7 pb-7 mt-2 rounded-lg shadow-lg flex flex-col justify-between gap-y-2.5"
           >
             <section>
               <h4 class="text-sm font-medium text-off-black">
@@ -458,8 +456,8 @@
                 Vestibulum condimentum tellus lacus, in accumsan elit maximus
                 ac. Donec hendrerit sodales congue...
               </p>
-              <hr class="-mx-1.5 bg-medium-gray my-4" />
             </section>
+            <hr class="-mx-1.5 bg-medium-gray" />
             <section>
               <h4 class="text-sm font-medium text-off-black">
                 Community Share Day
@@ -468,8 +466,8 @@
                 Nam vel lectus tincidunt, rutrum nulla eu, ornare libero.
                 Aliquam dictum accumsan porttitor...
               </p>
-              <hr class="-mx-1.5 bg-medium-gray my-4" />
             </section>
+            <hr class="-mx-1.5 bg-medium-gray" />
             <section>
               <h4 class="text-sm font-medium text-off-black">
                 Updated Privacy Policy
@@ -483,8 +481,10 @@
         </article>
         <article class="trending flex flex-col">
           <h3 class="text-off-black font-medium text-xl">Trending</h3>
-          <div class="bg-white px-6 pt-6 pb-1 mt-2 rounded-lg shadow-lg grow">
-            <div class="card-trending flex flex-row items-center gap-x-4 mb-6">
+          <div
+            class="bg-white px-6 pt-6 pb-8 mt-2 rounded-lg shadow-lg flex flex-col gap-y-6"
+          >
+            <div class="card-trending flex flex-row items-center gap-x-4">
               <img
                 src="assets/images/dog-small.png"
                 alt="An avatar image of a red dog sillouhette behind a blue background."
@@ -499,7 +499,7 @@
                 </p>
               </div>
             </div>
-            <div class="card-trending flex flex-row items-center gap-x-4 mb-6">
+            <div class="card-trending flex flex-row items-center gap-x-4">
               <img
                 src="assets/images/cat-small.png"
                 alt="An avatar image of a pink cartoon cat playing with a green ball of yarn over a yellow background."
@@ -514,7 +514,7 @@
                 </p>
               </div>
             </div>
-            <div class="card-trending flex flex-row items-center gap-x-4 mb-6">
+            <div class="card-trending flex flex-row items-center gap-x-4">
               <img
                 src="assets/images/spiderman-small.png"
                 alt="An avatar image of a cartoon Spiderman wearing over-the-ear wireless black headphones with a blue open sweater over a gray background."
@@ -529,7 +529,7 @@
                 </p>
               </div>
             </div>
-            <div class="card-trending flex flex-row items-center gap-x-4 mb-6">
+            <div class="card-trending flex flex-row items-center gap-x-4">
               <img
                 src="assets/images/penguin-small.png"
                 alt="An avatar image of a cartoon penguin wearing a green beanie and a green scarf over a pink background."

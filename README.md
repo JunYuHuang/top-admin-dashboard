@@ -17,7 +17,7 @@ This web page is an implementation based on the above UI design mock-up.
 - [x] Complete main-content projects section component
 - [x] Complete main-content announcements section content
 - [x] Complete main-content trending section content
-- [ ] Fix extra height issue with grid layout (related to top and bottom padding in `.main-content` element)
+- [x] Fix extra height issue with grid layout (related to top and bottom padding in `.main-content` element)
 
 ## Assets To Download
 
