@@ -29,6 +29,14 @@
           },
         },
       };
+
+      window.addEventListener("load", (e) => {
+        const searchForm = document.querySelector(".form-search");
+        searchForm.addEventListener("submit", (e) => {
+          e.preventDefault();
+          console.log(`Search form submitted`);
+        });
+      });
     </script>
     <link rel="stylesheet" href="assets/styles.css" rel="stylesheet" />
   </head>
@@ -129,7 +137,51 @@
       <header
         class="header bg-white grid grid-rows-[80px_100px] pl-11 pr-[60px] pb-4 shadow-lg"
       >
-        <div class="row-top bg-red-200">a</div>
+        <div class="row-top grid grid-cols-[1.6fr_1fr]">
+          <form
+            action="/"
+            method="GET"
+            class="form-search grid grid-cols-[24px_1fr] items-center gap-x-4"
+          >
+            <img
+              src="assets/icons/magnify.svg"
+              alt="An icon of a magnifying glass."
+              class="w-6 h-6 justify-self-center"
+            />
+            <div class="input-group">
+              <label for="search-query" class="invisible absolute -z-10"
+                >Search</label
+              >
+              <input
+                id="search-query"
+                name="search-query"
+                type="text"
+                class="focus-visible:outline-0 bg-light-gray rounded-full text-off-black py-1 px-4 min-w-[200px] max-w-[606px] w-full"
+              />
+            </div>
+          </form>
+          <div
+            class="grid grid-cols-[24px_48px_max-content] items-center justify-end gap-x-7 pr-4"
+          >
+            <a href="#" class="">
+              <img
+                src="assets/icons/bell-ring-outline.svg"
+                alt="An icon of a bell ringing."
+                class="w-6 h-6 justify-self-center"
+              />
+            </a>
+            <a href="#" class="">
+              <img
+                src="assets/images/cat-small.png"
+                alt="An avatar image of a pink cartoon cat playing with a green ball of yarn over a yellow background."
+                class="w-12 h-12 rounded-full justify-self-center"
+              />
+            </a>
+            <a href="#" class="text-off-black text-lg font-medium"
+              >Morgan Oakley</a
+            >
+          </div>
+        </div>
         <div class="row-bottom grid grid-cols-2 items-center">
           <div class="flex flex-row items-center gap-x-5">
             <img
